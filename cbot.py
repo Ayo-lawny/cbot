@@ -7,7 +7,7 @@ import streamlit as st
 import warnings
 warnings.filterwarnings('ignore')
 # import spacy
-lemmatizer = nltk.stem.WordNetLemmatizer()
+# lemmatizer = nltk.stem.WordNetLemmatizer()
 # Download required NLTK data
 # nltk.download('stopwords')
 # nltk.download('punkt')
