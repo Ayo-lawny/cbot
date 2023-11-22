@@ -1,4 +1,4 @@
-# import nltk
+import nltk
 import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity      
@@ -7,11 +7,11 @@ import streamlit as st
 import warnings
 warnings.filterwarnings('ignore')
 # import spacy
-# lemmatizer = nltk.stem.WordNetLemmatizer()
+lemmatizer = nltk.stem.WordNetLemmatizer()
 # Download required NLTK data
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 vb = pd.read_csv('Samsung Dialog.txt', sep = ':', header = None)
 vb.head(10)
