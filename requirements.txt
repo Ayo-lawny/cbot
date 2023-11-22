@@ -7,3 +7,4 @@ scikit-learn==1.0.2
 seaborn==0.12.2
 typing_extensions==4.7.1
 virtualenv==20.24.6
+nltk==3.8.1
